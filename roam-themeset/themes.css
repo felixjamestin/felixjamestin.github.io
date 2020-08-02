@@ -1,0 +1,228 @@
+@import url('https://felixjamestin.github.io/roam-themeset/base.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --font-size: 14px;
+    --header-font: "Inter", sans-serif;	
+    --body-font: "Inter", sans-serif;
+
+    /* Current: Puma */
+    --body-background-color: #353846;
+    --popup-background-color: #3D4050;
+    --main-background-color: #292b35;
+    --search-background-color: #292b35;
+    --block-highlight-accent-color: #6A6F88;
+    
+    --body-text-color: #f5f5f5;
+    --black-text: #222222;
+    --empty-text-color: #9DA5B4;
+    --sidebar-base-text-color: #9DA5B4;
+    
+    --primary-accent-color: #50FA7B;
+    --secondary-accent-color: #CDAEF9;
+    --secondary-accent-extra-color: rgb(203, 170, 247);
+    --tertiary-accent-color: #8BE9FD;
+    --tertiary-accent-extra-color: #46DFFF;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25); 
+
+    /* To use a theme from below, replace the current theme with it
+
+    // Asuka
+    --body-background-color: #5E334A;
+    --popup-background-color: #5E334A;
+    --main-background-color: #422434;
+    --search-background-color: #422434;
+    --block-highlight-accent-color: #985B7C;
+    
+    --body-text-color: #FFFFFF;
+    --black-text: #222222;
+    --empty-text-color: #FFFFFF;
+    --sidebar-base-text-color: #FFFFFF;
+    
+    --primary-accent-color: #FF93BA;
+    --secondary-accent-color: #FFADCB;
+    --secondary-accent-extra-color: #FF93BA;
+    --tertiary-accent-color: #FFBDD5;
+    --tertiary-accent-extra-color: #FF93BA;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25); 
+
+    // Arrakis
+    --body-background-color: #47322D;
+    --popup-background-color: #47322D;
+    --main-background-color: #392824;
+    --search-background-color: #392824;
+    --block-highlight-accent-color: #946D63;
+    
+    --body-text-color: #FFFFFF;
+    --black-text: #222222;
+    --empty-text-color: #FFFFFF;
+    --sidebar-base-text-color: #FFFFFF;
+    
+    --primary-accent-color: #F7C544;
+    --secondary-accent-color: #F7C544;
+    --secondary-accent-extra-color: #F7C544;
+    --tertiary-accent-color: #FF7D5F;
+    --tertiary-accent-extra-color: #FF7D5F;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25);
+
+     // Gaia
+     --body-background-color: #3F6556;
+     --popup-background-color: #3F6556;
+     --main-background-color: #173D32;
+     --search-background-color: #173D32;
+     --block-highlight-accent-color: #7ECAAC;
+   
+     --body-text-color: #FFFFFF;
+     --black-text: #222222;
+     --empty-text-color: #FFFFFF;
+     --sidebar-base-text-color: #FFFFFF;
+   
+     --primary-accent-color: #FFFFFF;
+     --secondary-accent-color: #99FFE6;
+     --secondary-accent-extra-color: #78FFDE;
+     --tertiary-accent-color: #78FFDE;
+     --tertiary-accent-extra-color: #78FFDE;
+   
+     --border-color: rgba(0, 0, 0, 0.08);
+     --subtle-border-color: rgba(255, 255, 255, 0.11);
+     --search-border-color: rgba(255, 255, 255, 0.08);
+     --reference-item-background: rgba(0, 0, 0, 0.10);
+     --brackets-color: rgba(0, 0, 0, 0.25); 
+
+    // Gatsby
+    --body-background-color: #173D32;
+    --popup-background-color: #173D32;
+    --main-background-color: #112E25;
+    --search-background-color: #112E25;
+    --block-highlight-accent-color: #3E8570;
+    
+    --body-text-color: #FFFFFF;
+    --black-text: #222222;
+    --empty-text-color: #FFFFFF;
+    --sidebar-base-text-color: #FFFFFF;
+    
+    --primary-accent-color: #FF93BA;
+    --secondary-accent-color: #FFADCB;
+    --secondary-accent-extra-color: #FFADCB;
+    --tertiary-accent-color: #99FFE6;
+    --tertiary-accent-extra-color: #78FFDE;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25);  
+
+    // Melange
+    --body-background-color: #3C335E;
+    --popup-background-color: #3C335E;
+    --main-background-color: #2A2442;
+    --search-background-color: #2A2442;
+    --block-highlight-accent-color: #796BAB;
+    
+    --body-text-color: #FFFFFF;
+    --black-text: #222222;
+    --empty-text-color: #FFFFFF;
+    --sidebar-base-text-color: #FFFFFF;
+    
+    --primary-accent-color: #21D0FF;
+    --secondary-accent-color: #AFACFF;
+    --secondary-accent-extra-color: #9C98FF;
+    --tertiary-accent-color: #76DDF9;
+    --tertiary-accent-extra-color: #21D0FF;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25); 
+
+    // Puma
+    --body-background-color: #353846;
+    --popup-background-color: #3D4050;
+    --main-background-color: #292b35;
+    --search-background-color: #292b35;
+    --block-highlight-accent-color: #6A6F88;
+    
+    --body-text-color: #f5f5f5;
+    --black-text: #222222;
+    --empty-text-color: #9DA5B4;
+    --sidebar-base-text-color: #9DA5B4;
+    
+    --primary-accent-color: #50FA7B;
+    --secondary-accent-color: #CDAEF9;
+    --secondary-accent-extra-color: rgb(203, 170, 247);
+    --tertiary-accent-color: #8BE9FD;
+    --tertiary-accent-extra-color: #46DFFF;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25); 
+
+    // Rei
+    --body-background-color: #3A387D;
+    --popup-background-color: #3A387D;
+    --main-background-color: #252456;
+    --search-background-color: #252456;
+    --block-highlight-accent-color: #6462BF;
+  
+    --body-text-color: #FFFFFF;
+    --black-text: #222222;
+    --empty-text-color: #FFFFFF;
+    --sidebar-base-text-color: #FFFFFF;
+  
+    --primary-accent-color: #FF93BA;
+    --secondary-accent-color: #FFADCB;
+    --secondary-accent-extra-color: #FFADCB;
+    --tertiary-accent-color: #99FFE6;
+    --tertiary-accent-extra-color: #78FFDE;
+  
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25); 
+
+  	// Shinji
+    --body-background-color: #4B5259;
+    --popup-background-color: #4B5259;
+    --main-background-color: #35393E;
+    --search-background-color: #35393E;
+    --block-highlight-accent-color: #7C8084;
+  
+    --body-text-color: #f5f5f5;
+    --black-text: #222222;
+    --empty-text-color: #9DA5B4;
+    --sidebar-base-text-color: #9DA5B4;
+  
+    --primary-accent-color: #f5f5f5;
+    --secondary-accent-color: #D3B4FF;
+    --secondary-accent-extra-color: #D3B4FF;
+    --tertiary-accent-color: #9CEEFF;
+    --tertiary-accent-extra-color: #46DFFF;
+  
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25);
+
+  */ 
+}
