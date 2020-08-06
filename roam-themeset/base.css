@@ -524,8 +524,7 @@ a:focus, a:hover{
 }
 
 .roam-body .roam-app .roam-main .roam-article h1.rm-title-display{
-    color: var(--title-accent-color);
-    
+    color: var(--title-accent-color) !important;
 }
 
 .roam-body .roam-app h1 {
