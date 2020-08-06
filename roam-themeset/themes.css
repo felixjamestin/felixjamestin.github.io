@@ -1,12 +1,16 @@
 @import url('https://felixjamestin.github.io/roam-themeset/base.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+/* Uncomment for the Memex theme
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap');
+*/
+
 :root {
     --font-size: 14px;
     --header-font: "Inter", sans-serif;	
     --body-font: "Inter", sans-serif;
-
-    /* Current: Puma */
+  
+      /* Current: Puma */  
     --body-background-color: #353846;
     --popup-background-color: #3D4050;
     --main-background-color: #292b35;
@@ -18,6 +22,7 @@
     --empty-text-color: #9DA5B4;
     --sidebar-base-text-color: #9DA5B4;
     
+    --title-accent-color: #50FA7B;
     --primary-accent-color: #50FA7B;
     --secondary-accent-color: #CDAEF9;
     --secondary-accent-extra-color: rgb(203, 170, 247);
@@ -26,10 +31,37 @@
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
-    --search-border-color: rgba(255, 255, 255, 0);
+    --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
     --brackets-color: rgba(0, 0, 0, 0.25); 
-
+  
+  
+    --body-background-color: #46535E;
+    --popup-background-color: #46535E;
+    --main-background-color: #333943;
+    --search-background-color: #333943;
+    --block-highlight-accent-color: #758DA2;
+  
+    --body-text-color: #f5f5f5;
+    --black-text: #222222;
+    --empty-text-color: #9DA5B4;
+    --sidebar-base-text-color: #9DA5B4;
+  
+    --title-accent-color: #f5f5f5;
+    --primary-accent-color: #f5f5f5;
+    --secondary-accent-color: #D3B4FF;
+    --secondary-accent-extra-color: #D3B4FF;
+    --tertiary-accent-color: #9CEEFF;
+    --tertiary-accent-extra-color: #46DFFF;
+  
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25);
+  
+ 
+ 
     /* To use a theme from below, replace the current theme with it
 
     // Asuka
@@ -44,6 +76,7 @@
     --empty-text-color: #FFFFFF;
     --sidebar-base-text-color: #FFFFFF;
     
+    --title-accent-color: #FF93BA;
     --primary-accent-color: #FF93BA;
     --secondary-accent-color: #FFADCB;
     --secondary-accent-extra-color: #FF93BA;
@@ -68,6 +101,7 @@
     --empty-text-color: #FFFFFF;
     --sidebar-base-text-color: #FFFFFF;
     
+    --title-accent-color: #F7C544;
     --primary-accent-color: #F7C544;
     --secondary-accent-color: #F7C544;
     --secondary-accent-extra-color: #F7C544;
@@ -79,6 +113,31 @@
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
     --brackets-color: rgba(0, 0, 0, 0.25);
+  
+    // Art Deco
+    --body-background-color: #173D32;
+    --popup-background-color: #173D32;
+    --main-background-color: #112E25;
+    --search-background-color: #112E25;
+    --block-highlight-accent-color: #3E8570;
+    
+    --body-text-color: #FFFFFF;
+    --black-text: #222222;
+    --empty-text-color: #FFFFFF;
+    --sidebar-base-text-color: #FFFFFF;
+    
+    --title-accent-color: #FF93BA;
+    --primary-accent-color: #FF93BA;
+    --secondary-accent-color: #FFADCB;
+    --secondary-accent-extra-color: #FFADCB;
+    --tertiary-accent-color: #99FFE6;
+    --tertiary-accent-extra-color: #78FFDE;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25); 
 
      // Gaia
      --body-background-color: #3F6556;
@@ -92,6 +151,7 @@
      --empty-text-color: #FFFFFF;
      --sidebar-base-text-color: #FFFFFF;
    
+     --title-accent-color: #FFFFFF;
      --primary-accent-color: #FFFFFF;
      --secondary-accent-color: #99FFE6;
      --secondary-accent-extra-color: #78FFDE;
@@ -102,31 +162,7 @@
      --subtle-border-color: rgba(255, 255, 255, 0.11);
      --search-border-color: rgba(255, 255, 255, 0.08);
      --reference-item-background: rgba(0, 0, 0, 0.10);
-     --brackets-color: rgba(0, 0, 0, 0.25); 
-
-    // Gatsby
-    --body-background-color: #173D32;
-    --popup-background-color: #173D32;
-    --main-background-color: #112E25;
-    --search-background-color: #112E25;
-    --block-highlight-accent-color: #3E8570;
-    
-    --body-text-color: #FFFFFF;
-    --black-text: #222222;
-    --empty-text-color: #FFFFFF;
-    --sidebar-base-text-color: #FFFFFF;
-    
-    --primary-accent-color: #FF93BA;
-    --secondary-accent-color: #FFADCB;
-    --secondary-accent-extra-color: #FFADCB;
-    --tertiary-accent-color: #99FFE6;
-    --tertiary-accent-extra-color: #78FFDE;
-    
-    --border-color: rgba(0, 0, 0, 0.08);
-    --subtle-border-color: rgba(255, 255, 255, 0.11);
-    --search-border-color: rgba(255, 255, 255, 0.08);
-    --reference-item-background: rgba(0, 0, 0, 0.10);
-    --brackets-color: rgba(0, 0, 0, 0.25);  
+     --brackets-color: rgba(0, 0, 0, 0.25);  
 
     // Melange
     --body-background-color: #3C335E;
@@ -140,11 +176,40 @@
     --empty-text-color: #FFFFFF;
     --sidebar-base-text-color: #FFFFFF;
     
+    --title-accent-color: #21D0FF;
     --primary-accent-color: #21D0FF;
     --secondary-accent-color: #AFACFF;
     --secondary-accent-extra-color: #9C98FF;
     --tertiary-accent-color: #76DDF9;
     --tertiary-accent-extra-color: #21D0FF;
+    
+    --border-color: rgba(0, 0, 0, 0.08);
+    --subtle-border-color: rgba(255, 255, 255, 0.11);
+    --search-border-color: rgba(255, 255, 255, 0.08);
+    --reference-item-background: rgba(0, 0, 0, 0.10);
+    --brackets-color: rgba(0, 0, 0, 0.25);
+  
+    // Memex
+    --header-font: "IBM Plex Mono", sans-serif;	
+    --body-font: "IBM Plex Mono", sans-serif;
+  
+    --body-background-color: #243342;
+    --popup-background-color: #243342;
+    --main-background-color: #202E3C;
+    --search-background-color: #202E3C;
+    --block-highlight-accent-color: #C8A1FF;
+    
+    --body-text-color: #FFFFFF;
+    --black-text: #222222;
+    --empty-text-color: #9DA5B4;
+    --sidebar-base-text-color: #9DA5B4;
+    
+    --title-accent-color: #50FA7B;
+    --primary-accent-color: #50FA7B;
+    --secondary-accent-color: #C8A1FF;
+    --secondary-accent-extra-color: #C8A1FF;
+    --tertiary-accent-color: #8BE9FD;
+    --tertiary-accent-extra-color: #46DFFF;
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -164,6 +229,7 @@
     --empty-text-color: #9DA5B4;
     --sidebar-base-text-color: #9DA5B4;
     
+    --title-accent-color: #50FA7B;
     --primary-accent-color: #50FA7B;
     --secondary-accent-color: #CDAEF9;
     --secondary-accent-extra-color: rgb(203, 170, 247);
@@ -172,7 +238,7 @@
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
-    --search-border-color: rgba(255, 255, 255, 0);
+    --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
     --brackets-color: rgba(0, 0, 0, 0.25); 
 
@@ -188,6 +254,7 @@
     --empty-text-color: #FFFFFF;
     --sidebar-base-text-color: #FFFFFF;
   
+    --title-accent-color: #FF93BA;
     --primary-accent-color: #FF93BA;
     --secondary-accent-color: #FFADCB;
     --secondary-accent-extra-color: #FFADCB;
@@ -200,18 +267,19 @@
     --reference-item-background: rgba(0, 0, 0, 0.10);
     --brackets-color: rgba(0, 0, 0, 0.25); 
 
-  	// Shinji
-    --body-background-color: #4B5259;
-    --popup-background-color: #4B5259;
-    --main-background-color: #35393E;
-    --search-background-color: #35393E;
-    --block-highlight-accent-color: #7C8084;
+  	// Shinji  
+	--body-background-color: #46535E;
+    --popup-background-color: #46535E;
+    --main-background-color: #333943;
+    --search-background-color: #333943;
+    --block-highlight-accent-color: #758DA2;
   
     --body-text-color: #f5f5f5;
     --black-text: #222222;
     --empty-text-color: #9DA5B4;
     --sidebar-base-text-color: #9DA5B4;
   
+    --title-accent-color: #f5f5f5;
     --primary-accent-color: #f5f5f5;
     --secondary-accent-color: #D3B4FF;
     --secondary-accent-extra-color: #D3B4FF;

@@ -523,6 +523,10 @@ a:focus, a:hover{
     color: var(--body-text-color);
 }
 
+.roam-log-page h1.rm-title-display{
+    color: var(--title-accent-color);
+}
+
 .roam-body .roam-app h1 {
     color: var(--primary-accent-color);
     font-weight: 400 !important;
