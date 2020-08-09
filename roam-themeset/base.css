@@ -768,7 +768,7 @@ strong {
     background-color: rgba(255, 255, 255, 0.7) !important; }
     
   .roam-body .roam-app .roam-sidebar-container {
-    opacity: 1;
+    opacity: var(--sidebar-default-opacity, 1);
     background-color: var(--main-background-color) !important;
   }
 
