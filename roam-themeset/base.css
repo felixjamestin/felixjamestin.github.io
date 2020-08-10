@@ -759,7 +759,6 @@ strong {
 .block-border-left {
   border-left-color: var(--subtle-border-color) !important; }
 
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .roam-body .roam-app .roam-main .roam-article{
     padding: 20px 30px 50px 40px;
