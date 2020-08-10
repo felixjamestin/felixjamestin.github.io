@@ -5,7 +5,7 @@
     --font-size: 14px;
     --header-font: "Inter", sans-serif;	
     --body-font: "Inter", sans-serif;
-    --sidebar-default-opacity: .15 /* Change this to 1 if you want the sidebar to always be visible */
+    --sidebar-default-opacity: 1; /* Try ".15" for a smooth fade-in.Change this to 1 if you want the sidebar to always be visible */
   
     /* Current: Puma */  
     --body-background-color: #353846;
