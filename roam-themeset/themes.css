@@ -6,7 +6,7 @@
     --header-font: "Inter", sans-serif;	
     --body-font: "Inter", sans-serif;
     --sidebar-default-opacity: .15; /* Change this to 1 if you want the sidebar to always be visible in desktop view*/
-    
+
   
     /* Current: Puma */  
     --body-background-color: #353846;
@@ -135,7 +135,7 @@
      --reference-item-background: rgba(0, 0, 0, 0.15);
      --brackets-color: rgba(0, 0, 0, 0.25);  
 
-    // Melange
+    // Spice
     --body-background-color: #3C335E;
     --popup-background-color: #3C335E;
     --main-background-color: #2A2442;
