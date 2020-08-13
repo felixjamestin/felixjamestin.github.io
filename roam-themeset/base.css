@@ -759,6 +759,38 @@ strong {
 .block-border-left {
   border-left-color: var(--subtle-border-color) !important; }
 
+.kanban-column{
+  background-color: none;
+  margin: none;
+}
+.kanban-board{
+  background: var(--reference-item-background) !important;
+  border: none;
+  border-radius: 6px !important;
+  padding: 5px 10px 5px 5px!important;
+}
+.kanban-title{
+  color: var(--secondary-accent-color) !important;
+  font-size: 11px !important;
+  opacity: 0.8 !important;
+  font-weight: 600 !important;
+  margin: 5px 0px 5px 0px;
+  min-height: fit-content;
+  padding: 5px 0px 5px;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+}
+.kanban-card{
+  margin: 8px 0px 10px 8px;
+  padding: 12px 12px;
+  background-color: var(--popup-background-color); /*var(--block-highlight-accent-color);*/
+  border-radius: 3px !important;
+  font-size: 13px;
+  letter-spacing: .1px;
+  line-height: 170%;
+}
+
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .roam-body .roam-app .roam-main .roam-article{
     padding: 20px 30px 50px 40px;
