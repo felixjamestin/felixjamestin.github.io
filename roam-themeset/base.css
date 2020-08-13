@@ -760,8 +760,8 @@ strong {
   border-left-color: var(--subtle-border-color) !important; }
 
 .kanban-column{
-  background-color: none;
-  margin: none;
+  background-color: initial;
+  margin: initial;
 }
 .kanban-board{
   background: var(--reference-item-background) !important;
@@ -779,6 +779,7 @@ strong {
   padding: 5px 0px 5px;
   letter-spacing: 0.35px;
   text-transform: uppercase;
+  border-bottom: initial;
 }
 .kanban-card{
   margin: 8px 0px 10px 8px;
@@ -788,7 +789,7 @@ strong {
   font-size: 13px;
   letter-spacing: .1px;
   line-height: 170%;
-  
+
 }
 
 
