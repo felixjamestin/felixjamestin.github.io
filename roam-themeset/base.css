@@ -8,6 +8,18 @@ html{
   background: initial;
 }
 
+.version-bullet{
+  background-color: var(--secondary-accent-color) !important;
+  color: var(--popup-background-color);
+  padding: 9px 10px 11px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  top: -1px;
+  left: -6px;
+  border-radius: 3px;
+}
+
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .menu-title{
   color: var(--empty-text-color);
   margin-top: 10px;

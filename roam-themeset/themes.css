@@ -5,8 +5,7 @@
     --font-size: 14px;
     --header-font: "Inter", sans-serif;	
     --body-font: "Inter", sans-serif;
-    --sidebar-default-opacity: .15; /* Change this to 1 if you want the sidebar to always be visible in desktop view*/
-
+    --sidebar-default-opacity: .15; /* Change this to 1 if you want the sidebar to always be visible in desktop view */
   
     /* Current: Puma */  
     --body-background-color: #353846;
@@ -85,7 +84,7 @@
     --reference-item-background: rgba(0, 0, 0, 0.15);
     --brackets-color: rgba(0, 0, 0, 0.25);
   
-    // Art Deco
+    // Gaia
     --body-background-color: #224A3F;
     --popup-background-color: #224A3F;
     --main-background-color: #18392F;
@@ -109,31 +108,6 @@
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.15);
     --brackets-color: rgba(0, 0, 0, 0.25); 
-
-     // Gaia
-     --body-background-color: #3F6556;
-     --popup-background-color: #3F6556;
-     --main-background-color: #173D32;
-     --search-background-color: #173D32;
-     --block-highlight-accent-color: #7ECAAC;
-   
-     --body-text-color: #FFFFFF;
-     --black-text: #222222;
-     --empty-text-color: #FFFFFF;
-     --sidebar-base-text-color: #FFFFFF;
-   
-	 --title-accent-color: #FFFFFF;
-     --primary-accent-color: #99FFE6;
-     --secondary-accent-color: #99FFE6;
-     --secondary-accent-extra-color: #78FFDE;
-     --tertiary-accent-color: #78FFDE;
-     --tertiary-accent-extra-color: #78FFDE;
-   
-     --border-color: rgba(0, 0, 0, 0.08);
-     --subtle-border-color: rgba(255, 255, 255, 0.11);
-     --search-border-color: rgba(255, 255, 255, 0.08);
-     --reference-item-background: rgba(0, 0, 0, 0.15);
-     --brackets-color: rgba(0, 0, 0, 0.25);  
 
     // Spice
     --body-background-color: #3C335E;
