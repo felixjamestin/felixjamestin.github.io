@@ -304,6 +304,10 @@ input, select, textarea{
   color: var(--block-highlight-accent-color);
 }
 
+.rm-embed-container:hover .bp3-button.bp3-small.bp3-minimal.block-ref-count-button{
+  opacity: 1
+}
+
 button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
   display: var(--embeds-show-reference-count);
   color: var(--secondary-accent-color) !important;
@@ -313,6 +317,8 @@ button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
   font-weight: 600;
   margin-left: -13px;
   text-align: center;
+  opacity: 0
+  transition: all 200ms ease-in-out;
 }
 
 #roam-right-sidebar-content button.bp3-button.bp3-minimal.bp3-small {
