@@ -16,9 +16,9 @@ html{
   font-size: 12px;
 }
 
-.bp3-button:not([class*="bp3-intent-"]){
+.bp3-popover-content .bp3-button:not([class*="bp3-intent-"]){
   background-color: var(--secondary-accent-color);
-  background-color: var(--secondary-accent-extra-color);
+  background-image: none;
   border-radius: 6px;
   font-size: 13px;
   transition: all 200ms ease-in-out;
