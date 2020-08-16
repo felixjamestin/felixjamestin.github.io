@@ -312,6 +312,7 @@ button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
   font-size: 13px;
   font-weight: 600;
   margin-left: -13px;
+  text-align: center;
 }
 
 #roam-right-sidebar-content button.bp3-button.bp3-minimal.bp3-small {
