@@ -16,6 +16,31 @@ html{
   font-size: 12px;
 }
 
+.bp3-button:not([class*="bp3-intent-"]){
+  background-color: var(--secondary-accent-color);
+  background-color: var(--secondary-accent-extra-color);
+  border-radius: 6px;
+  font-size: 13px;
+  transition: all 200ms ease-in-out;
+  box-shadow: none !important;
+}
+
+.bp3-button:not([class*="bp3-intent-"]):hover{
+  box-shadow: none;
+  background-color: white;
+}
+
+.bp3-button:empty::before, .bp3-button>:last-child {
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+}
+
+.rm-line{
+  border-top: 1px solid var(--block-highlight-accent-color);
+}
+
 .hoverparent.rm-resize-img:hover button.bp3-button.bp3-small.bp3-icon-standard.bp3-icon-edit.bp3-minimal{
   background: var(--brackets-color);
   opacity: 1;
