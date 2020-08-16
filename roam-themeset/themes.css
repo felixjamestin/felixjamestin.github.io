@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
+    /* Knobs */
     --font-size: 14px;
     --header-font: "Inter", sans-serif;	
     --body-font: "Inter", sans-serif;
     --sidebar-default-opacity: .15; /* Change this to 1 if you want the sidebar to always be visible in desktop view */
+    --embeds-show-reference-count: initial; /* Set this to 'initial' to show it; 'none' to hide it */
+    --sidebar-show-reference-count: initial; /* Set this to 'initial' to show it; 'none' to hide it */
   
     /* Current: Puma */  
     --body-background-color: #353846;

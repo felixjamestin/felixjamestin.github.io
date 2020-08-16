@@ -8,123 +8,6 @@ html{
     background: initial;
   }
   
-  .loading-astrolabe {
-    margin: auto;
-    position: relative;
-    width: 250px;
-    height: 250px;
-  }
-  
-  .loading-astrolabe .wand {
-    position: absolute;
-    width: 80%;
-    top: 24.5%;
-    left: 10%;
-    animation: nav 3.5s linear infinite;
-  }
-  .loading-astrolabe .wand-small {
-    position: absolute;
-    width: 80%;
-    top: 24.5%;
-    left: 11.5%;
-  }
-  .loading-astrolabe .background {
-    width: 100%;
-    border: none;
-    margin-left: -3px;
-  }
-  .spinner-astrolabe {
-    margin: auto;
-    margin-top: 100px;
-    position: relative;
-    width: 100px;
-    height: 100px;
-  }
-  .spinner-astrolabe .wand {
-    position: absolute;
-    width: 80%;
-    top: 24.5%;
-    left: 10%;
-    animation: nav 3.5s linear 20s;
-  }
-  .spinner-astrolabe .wand:hover {
-    animation: nav 3.5s linear infinite;
-  }
-  .spinner-astrolabe .wand-small {
-    position: absolute;
-    width: 80%;
-    top: 24.5%;
-    left: 11.5%;
-  }
-  .spinner-astrolabe .background {
-    width: 100%;
-    border: none;
-    margin-left: -3px;
-  }
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes nav {
-    0% {
-      transform: rotate(0deg);
-    }
-    15% {
-      transform: rotate(-30deg);
-    }
-    25% {
-      transform: rotate(30deg);
-    }
-    40% {
-      transform: rotate(-15deg);
-    }
-    50% {
-      transform: rotate(40deg);
-    }
-    70% {
-      transform: rotate(-50deg);
-    }
-    85% {
-      transform: rotate(75deg);
-    }
-    90% {
-      transform: rotate(-180deg);
-    }
-    100% {
-      transform: rotate(-355deg);
-    }
-  }
-  .spinner-square {
-    box-sizing: border-box;
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    padding: 20px;
-    grid-gap: 20px;
-    z-index: 3;
-    grid-template-columns: 1fr 1fr;
-    cursor: pointer;
-  }
-  .spinner-square .spinner-square-front {
-    background-color: red;
-    z-index: 5;
-  }
-  .spinner-square .spinner-square-rotate {
-    position: absolute;
-    margin-left: 75px;
-    margin-top: 75px;
-    background-color: black;
-    width: 150px;
-    height: 150px;
-    animation: spin 4.5s linear infinite;
-  }
-  
   .version-bullet{
     background-color: var(--secondary-accent-color) !important;
     color: var(--popup-background-color);
@@ -356,19 +239,6 @@ html{
     background: none !important;
   }
   
-  #roam-right-sidebar-content .bp3-popover-target .bp3-popover-target span.bp3-button.bp3-minimal.bp3-small {
-    display: none;
-  }
-  
-  #roam-right-sidebar-content span.bp3-button.bp3-minimal.bp3-icon-cross.bp3-small {
-    opacity: 0;
-    transition: all 120ms ease;
-  }
-  
-  #roam-right-sidebar-content div:hover span.bp3-button.bp3-minimal.bp3-icon-cross.bp3-small{
-    opacity: 1;
-  }
-  
   #roam-right-sidebar-content span.bp3-button.bp3-minimal.bp3-icon-minus, #roam-right-sidebar-content span.bp3-button.bp3-minimal.bp3-icon-plus {
     margin-left: -27px;
     align-self: baseline;
@@ -435,7 +305,41 @@ html{
   }
   
   button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
+    /* display: none; */
+  }
+
+  #roam-right-sidebar-content button.bp3-button.bp3-minimal.bp3-small {
+    display: var(--sidebar-show-reference-count);
+    color: var(--secondary-accent-color) !important;
+    font-weight: 600;
+    font-size: 13px;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    position: relative;
+    top: -4px;
+  }
+
+  #roam-right-sidebar-content div:hover button.bp3-button.bp3-minimal.bp3-small {
+    opacity: 1;
+  }
+
+  #roam-right-sidebar-content .bp3-popover-target .bp3-popover-target span.bp3-button.bp3-minimal.bp3-small {
     display: none;
+  }
+  
+  #roam-right-sidebar-content span.bp3-button.bp3-minimal.bp3-icon-cross.bp3-small {
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    position: relative;
+    top: -3px;
+  }
+  
+  #roam-right-sidebar-content div:hover span.bp3-button.bp3-minimal.bp3-icon-cross.bp3-small{
+    opacity: 1;
+  }
+
+  .rm-embed-container:hover > .rm-embed-edit{
+    top: 11px;
   }
   
   .bp3-button .bp3-icon, .bp3-button .bp3-icon-standard, .bp3-button .bp3-icon-large{
@@ -452,10 +356,6 @@ html{
   
   span.bp3-icon.bp3-icon-filter {
     font-size: 12px;
-  }
-  
-  #roam-right-sidebar-content button.bp3-button.bp3-minimal.bp3-small {
-    display: none;
   }
   
   span.bp3-button.bp3-minimal.bp3-small.bp3-icon-more::before {
