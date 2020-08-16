@@ -16,6 +16,16 @@ html{
   font-size: 12px;
 }
 
+.hoverparent.rm-resize-img:hover button.bp3-button.bp3-small.bp3-icon-standard.bp3-icon-edit.bp3-minimal{
+  background: var(--brackets-color);
+  opacity: 1;
+}
+
+.hoverparent.rm-resize-img button.bp3-button.bp3-small.bp3-icon-standard.bp3-icon-edit.bp3-minimal{
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+
 .version-bullet{
   background-color: var(--secondary-accent-color) !important;
   color: var(--popup-background-color);
