@@ -284,12 +284,12 @@ html{
   
   .bp3-menu-item:hover, .bp3-submenu .bp3-popover-target.bp3-popover-open>.bp3-menu-item{
     background-color: var(--secondary-accent-color);
-      color: var(--black-text);
+    color: var(--black-text);
   }
   
   .bp3-menu-divider{
     border-top: none;
-      margin: 7px;
+    margin: 7px;
   }
   
   span.bp3-icon-standard, button{
@@ -305,14 +305,20 @@ html{
   }
   
   button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
-    /* display: none; */
+    display: var(--embeds-show-reference-count);
+    color: var(--secondary-accent-color) !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: -13px;
   }
 
   #roam-right-sidebar-content button.bp3-button.bp3-minimal.bp3-small {
     display: var(--sidebar-show-reference-count);
     color: var(--secondary-accent-color) !important;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     opacity: 0;
     transition: all 200ms ease-in-out;
     position: relative;
@@ -339,7 +345,8 @@ html{
   }
 
   .rm-embed-container:hover > .rm-embed-edit{
-    top: 11px;
+    top: 13px;
+    right: 40px;
   }
   
   .bp3-button .bp3-icon, .bp3-button .bp3-icon-standard, .bp3-button .bp3-icon-large{
