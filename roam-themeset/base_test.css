@@ -325,7 +325,7 @@ button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
   display: var(--sidebar-show-reference-count);
   color: var(--secondary-accent-color) !important;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   opacity: 0;
   transition: all 200ms ease-in-out;
   position: relative;
