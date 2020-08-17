@@ -12,6 +12,14 @@ html{
   transition: all 150ms ease;
 }
 
+.roam-highlight{
+  background-color: #fef09f;
+  margin: -2px;
+  padding: 2px;
+  color: var(--black-text);
+  border-radius: 2px;
+}
+
 .rm-red-text {
   color: #ff6262;
   padding: 1px 5px;
