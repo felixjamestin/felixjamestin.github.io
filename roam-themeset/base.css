@@ -8,6 +8,10 @@ html{
   background: initial;
 }
 
+.bp3-menu-item{
+  transition: all 150ms ease;
+}
+
 .rm-red-text {
   color: #ff6262;
   padding: 1px 5px;
@@ -372,7 +376,7 @@ button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
   opacity: 0;
   transition: all 200ms ease-in-out;
   position: relative;
-  top: -4px;
+  top: -3px;
 }
 
 #roam-right-sidebar-content div:hover button.bp3-button.bp3-minimal.bp3-small {
@@ -454,7 +458,14 @@ span.bp3-button.bp3-minimal.bp3-small.bp3-icon-more::before {
     color: val(--empty-text-color);
 }
 
-.rm-reference-item, .rm-embed-container {
+.rm-reference-item {
+    background: var(--reference-item-background) !important;
+    border: none;
+    border-radius: 6px !important;
+    padding: 10px 0px !important;
+  }
+
+  .rm-embed-container {
     background: var(--reference-item-background) !important;
     border: none;
     border-radius: 6px !important;
