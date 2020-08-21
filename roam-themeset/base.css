@@ -28,6 +28,22 @@ html{
   font-size: 12px;
 }
 
+button.bp3-button.bp3-minimal.DayPicker-NavButton.DayPicker-NavButton--prev, 
+button.bp3-button.bp3-minimal.DayPicker-NavButton.DayPicker-NavButton--next{
+  background: transparent !important;
+}
+
+.DayPicker-Day.DayPicker-Day--isToday.DayPicker-Day--today {
+  background-color: var(--secondary-accent-color);
+  color: black;
+  border: none;
+  box-shadow: none;
+}
+
+.bp3-datepicker .DayPicker-Day:hover, .bp3-datepicker .DayPicker-Day:focus{
+  color: var(--primary-accent-color);
+}
+
 .bp3-popover-content .bp3-button:not([class*="bp3-intent-"]){
   background-color: var(--secondary-accent-color);
   background-image: none;
