@@ -33,6 +33,18 @@ button.bp3-button.bp3-minimal.DayPicker-NavButton.DayPicker-NavButton--next{
   background: transparent !important;
 }
 
+foreignObject {
+  color: var(--black-text);
+  background-color: white;
+  border-radius: 4px;
+}
+
+svg {
+  border: none !important;
+  background-color: var(--reference-item-background) !important;
+  border-radius: 6px !important;
+}
+
 .DayPicker-Day.DayPicker-Day--isToday.DayPicker-Day--today {
   background-color: var(--secondary-accent-color);
   color: black;
@@ -69,8 +81,13 @@ button.bp3-button.bp3-minimal.DayPicker-NavButton.DayPicker-NavButton--next{
   border-top: 1px solid var(--block-highlight-accent-color);
 }
 
+.hoverparent.rm-resize-img button.bp3-button.bp3-small.bp3-icon-standard.bp3-icon-edit.bp3-minimal{
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
 .hoverparent.rm-resize-img:hover button.bp3-button.bp3-small.bp3-icon-standard.bp3-icon-edit.bp3-minimal{
-  background: var(--brackets-color);
+  background: var(--main-background-color);
   opacity: 1;
 }
 
@@ -498,6 +515,7 @@ span.bp3-button.bp3-minimal.bp3-small.bp3-icon-more::before {
 
   .rm-embed-inner-block-hide{
     font-size: var(--font-size) !important;
+    transition: all 100ms cubic-bezier(0.45, 0.05, 0.55, 0.95)
   }
   
   .rm-reference-item .rm-block-text {
@@ -856,6 +874,7 @@ span.checkmark {
 
 .rm-block-text {
   max-width: 640px !important;
+  max-width: var(--max-text-width) !important;
   font-size: var(--font-size) !important; }
 
 .block-bullet-view {
