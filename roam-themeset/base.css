@@ -618,7 +618,7 @@ a:focus, a:hover{
     font-size: 11px !important;
     font-weight: 600 !important;
     margin: 2px 0px 6px 0px;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.75px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
