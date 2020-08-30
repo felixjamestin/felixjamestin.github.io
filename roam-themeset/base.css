@@ -41,7 +41,6 @@ foreignObject {
 
 svg {
   border: none !important;
-  background-color: var(--reference-item-background) !important;
   border-radius: 6px !important;
 }
 
