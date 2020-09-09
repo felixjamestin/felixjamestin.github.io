@@ -139,7 +139,11 @@ svg {
 }
 
 #buffer{
-  display: none !important;
+  opacity: 0;
+}
+
+#buffer:hover{
+  opacity: 1;
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon{
