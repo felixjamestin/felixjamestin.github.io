@@ -228,10 +228,10 @@ div.flex-align-start > span{
 .rm-all-pages .table .rm-pages-row.rm-pages-row-header{
   color: var(--empty-text-color);
   background-color: var(--body-background-color) !important;
-    padding-bottom: 5px;
-    padding-top: 15px;
-    box-shadow: 0px 1px 5px 1px #292b3594;
-    margin-bottom: 15px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  box-shadow: 0px 1px 5px 1px #292b3594;
+  margin-bottom: 15px;
 }
 
 .rm-all-pages .table .rm-pages-row.rm-pages-row-header .rm-pages-title-col{
@@ -716,18 +716,18 @@ body,
 #app {
   background: var(--main-background-color) !important; }
 
-.roam-center {
-  border-left: 1px solid var(--border-color) !important;
-  border-top: 1px solid var(--border-color) !important;
-  border-right: 1px solid var(--border-color) !important;
+.roam-center, .roam-body .roam-app .roam-body-main {
   border-radius: 6px;
   box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.04) !important;
   overflow: visible !important;
   background: var(--body-background-color) !important;
-  margin-top: 10px;
+  -webkit-font-smoothing: antialiased;
+  /* margin-top: 10px;
   margin-right: 16px;
   margin-left: 16px; 
-  -webkit-font-smoothing: antialiased;
+  border-left: 1px solid var(--border-color) !important;
+  border-top: 1px solid var(--border-color) !important;
+  border-right: 1px solid var(--border-color) !important; */
 }
 
 .roam-center > div:first-child {
