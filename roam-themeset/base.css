@@ -488,7 +488,7 @@ span.bp3-button.bp3-minimal.bp3-small.bp3-icon-more::before {
 }
 
 .roam-body .roam-app .roam-main .roam-article{
-    padding: 50px 42px 120px;
+    padding: 50px 42px 120px 80px;
 }
 
 .roam-log-page.roam-log-preview div{
