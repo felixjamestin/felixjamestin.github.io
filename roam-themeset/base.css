@@ -558,6 +558,18 @@ span.bp3-button.bp3-minimal.bp3-small.bp3-icon-more::before {
     top: 1px;
 }
 
+.rm-bullet.rm-bullet--closed .rm-bullet__inner {
+    border: 1px solid var(--secondary-accent-extra-color) !important;
+    padding: 2px;
+    position: relative;
+    top: -1px;
+    left: 1px;
+}
+
+.rm-bullet .rm-bullet__inner{
+  background-color: var(--secondary-accent-extra-color);
+}
+
 .controls .simple-bullet-outer .simple-bullet-inner{
     background-color: var(--secondary-accent-color);
 }
@@ -616,6 +628,7 @@ a:focus, a:hover{
 .starred-pages-wrapper .flex-h-box, .starred-pages-wrapper .flex-h-box span {
     font-size: 11px !important;
     font-weight: 600 !important;
+    color: var(--secondary-accent-color) !important;
     margin: 2px 0px 6px 0px;
     letter-spacing: 0.75px;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -731,7 +744,7 @@ body,
 }
 
 .window-headers {
-  color: var(--sidebar-base-text-color);
+  color: var(--secondary-accent-color); /* var(--sidebar-base-text-color); */
   font-size: 11px !important;
   font-weight: 600 !important;
   letter-spacing: 0.75px;
