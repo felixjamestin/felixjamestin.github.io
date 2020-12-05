@@ -30,6 +30,10 @@ html{
   padding: 17px 35px 17px 25px;
 }
 
+.rm-hr{
+  border: 1px solid var(--block-highlight-accent-color);
+}
+
 .rm-red-text {
   color: #ff6262;
   padding: 1px 5px;
