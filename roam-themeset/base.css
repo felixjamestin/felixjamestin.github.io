@@ -20,6 +20,16 @@ html{
   border-radius: 2px;
 }
 
+.rm-bq{
+  background-color: var(--popup-background-color);
+  border-radius: 3px;
+  border-left: transparent;
+  font-size: 13px;
+  letter-spacing: .1px;
+  line-height: 180%;
+  padding: 17px 35px 17px 25px;
+}
+
 .rm-red-text {
   color: #ff6262;
   padding: 1px 5px;
