@@ -34,6 +34,11 @@ html{
   border: 1px solid var(--block-highlight-accent-color);
 }
 
+.rm-orbit-tag {
+  background-color: var(--secondary-accent-color) !important;
+  color: var(--body-background-color) !important;
+}
+
 .rm-red-text {
   color: #ff6262;
   padding: 1px 5px;
