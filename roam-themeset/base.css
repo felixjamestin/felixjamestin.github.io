@@ -901,7 +901,7 @@ span.checkmark {
 
 .starred-pages-wrapper .flex-h-box{
   font-size: 13px !important;
-  opacity: 0.6 !important; }
+}
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
 .roam-body
