@@ -64,12 +64,12 @@ html{
 }
 }
 
-.rm-paren__paren--left{
-  padding-right: 3px;
+.rm-paren__paren--right{
+  padding-left: 3px !important;
 }
 
-.rm-paren__paren--right{
-  padding-left: 3px;
+.rm-paren__paren--left{
+  padding-right: 3px !important;
 }
 
 .rm-hr{
