@@ -34,23 +34,12 @@ html{
 
 .rm-bq::before {
   position: absolute;
-  content: open-quote;
+  content: '\201C';
   font-size: 33px;
   margin-left: -20px;
   margin-top: -9px;
   color: var(--secondary-accent-color);
   font-weight: bold;
-}
-
-.rm-bq::after {
-  position: absolute;
-  content: open-quote;
-  font-size: 33px;
-  margin-left: -20px;
-  margin-top: -9px;
-  color: var(--secondary-accent-color);
-  font-weight: bold;
-  visibility: hidden;
 }
 
 .rm-paren{
