@@ -27,7 +27,49 @@ html{
   font-size: 13px;
   letter-spacing: .1px;
   line-height: 180%;
-  padding: 17px 35px 17px 25px;
+  padding: 30px 35px 25px 35px;
+  margin: 0px;
+  position: relative;
+}
+
+.rm-bq::before {
+  position: absolute;
+  content: open-quote;
+  font-size: 33px;
+  margin-left: -20px;
+  margin-top: -9px;
+  color: var(--secondary-accent-color);
+  font-weight: bold;
+}
+
+.rm-paren{
+  background-color: var(--secondary-accent-extra-color);
+  color: var(--main-background-color);
+  font-size: 12px;
+  border: transparent;
+  border-radius: 100px;
+  padding: 1px 4px;
+  margin-left: -2px;
+  margin-right: 1px;
+}
+
+.rm-paren__paren:hover{
+  color: white;
+  background-color: initial;
+}
+
+.rm-paren--closed:hover{
+  color: var(--black-text);
+  background-color: var(--secondary-accent-extra-color);
+}
+}
+
+.rm-paren__paren--left{
+  padding-right: 3px;
+}
+
+.rm-paren__paren--right{
+  padding-left: 3px;
 }
 
 .rm-hr{
