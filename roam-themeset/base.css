@@ -43,8 +43,8 @@ html{
 }
 
 .rm-paren{
-  background-color: var(--secondary-accent-extra-color);
-  color: var(--main-background-color);
+  background-color: var(--secondary-accent-extra-color) !important;
+  color: var(--main-background-color) !important;
   font-size: 12px;
   border: transparent;
   border-radius: 100px;
@@ -61,7 +61,6 @@ html{
 .rm-paren--closed:hover{
   color: var(--black-text);
   background-color: var(--secondary-accent-extra-color);
-}
 }
 
 .rm-paren__paren--right{
@@ -862,7 +861,12 @@ span.checkmark {
   align-self: baseline;
 }
 
-.rm-level1 > div, .rm-level1 > textarea {
+.roam-block-container .rm-block-main{
+  align-items: baseline;
+}
+
+.rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-level1 > div, .rm-level1 > textarea {
+  color: var(--primary-accent-color); 
   font-size: 18px !important;
   line-height: 150% !important;
   width: 38rem !important;
@@ -870,7 +874,7 @@ span.checkmark {
   margin-bottom: 3px;
  }
 
-.rm-level2 > div, .rm-level2 > textarea {
+ .rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-level2 > div, .rm-level2 > textarea {
   color: var(--primary-accent-color); 
   font-size: 16px !important;
   line-height: 180% !important;
@@ -879,7 +883,7 @@ span.checkmark {
   margin-bottom: 5px;
 }
 
-.rm-level3 > div, .rm-level3 > textarea {
+.rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-level3 > div, .rm-level3 > textarea {
   color: var(--secondary-accent-color);
   font-size: 15px !important;
   line-height: 150% !important; 
