@@ -861,10 +861,6 @@ span.checkmark {
   align-self: baseline;
 }
 
-.roam-block-container .rm-block-main{
-  align-items: baseline;
-}
-
 .rm-level1, .rm-heading-level-1 > .rm-block__self .rm-block__input, .rm-level1 > div, .rm-level1 > textarea {
   color: var(--primary-accent-color); 
   font-size: 18px !important;
@@ -872,6 +868,7 @@ span.checkmark {
   width: 38rem !important;
   margin-top: 7px;
   margin-bottom: 3px;
+  align-self: baseline;
  }
 
  .rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-level2 > div, .rm-level2 > textarea {
@@ -881,6 +878,7 @@ span.checkmark {
   width: 38rem !important;
   margin-top: 3px;
   margin-bottom: 5px;
+  align-self: baseline;
 }
 
 .rm-level3, .rm-heading-level-3 > .rm-block__self .rm-block__input, .rm-level3 > div, .rm-level3 > textarea {
@@ -890,6 +888,7 @@ span.checkmark {
   width: 38rem !important;
   margin-top: 0px;
   margin-bottom: 5px;
+  align-self: baseline;
 }
 
 .rm-level1 div, .rm-level1 textarea {
