@@ -870,7 +870,7 @@ span.checkmark {
   margin-bottom: 3px;
   align-self: baseline;
  }
-
+ 
  .rm-level2, .rm-heading-level-2 > .rm-block__self .rm-block__input, .rm-level2 > div, .rm-level2 > textarea {
   color: var(--primary-accent-color); 
   font-size: 16px !important;
