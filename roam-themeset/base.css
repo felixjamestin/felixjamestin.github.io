@@ -726,7 +726,7 @@ a:focus, a:hover{
     flex: 0 1 600px !important;
 }
 
-.rm-page-ref-link-color {
+.rm-page-ref-link-color, .rm-page-ref--link {
     color: var(--tertiary-accent-color);
 }
 
