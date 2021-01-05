@@ -29,6 +29,8 @@
     --secondary-accent-extra-color: rgb(203, 170, 247);
     --tertiary-accent-color: #8BE9FD;
     --tertiary-accent-extra-color: #46DFFF;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -56,6 +58,8 @@
     --secondary-accent-extra-color: #FF93BA;
     --tertiary-accent-color: #FFBDD5;
     --tertiary-accent-extra-color: #FF93BA;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -81,6 +85,8 @@
     --secondary-accent-extra-color: #F7C544;
     --tertiary-accent-color: #FF7D5F;
     --tertiary-accent-extra-color: #FF7D5F;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -106,6 +112,8 @@
     --secondary-accent-extra-color: #FFADCB;
     --tertiary-accent-color: #99FFE6;
     --tertiary-accent-extra-color: #78FFDE;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -131,6 +139,8 @@
     --secondary-accent-extra-color: #9C98FF;
     --tertiary-accent-color: #76DDF9;
     --tertiary-accent-extra-color: #21D0FF;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -159,6 +169,8 @@
     --secondary-accent-extra-color: #C8A1FF;
     --tertiary-accent-color: #8BE9FD;
     --tertiary-accent-extra-color: #46DFFF;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -186,6 +198,8 @@
     --secondary-accent-extra-color: rgb(203, 170, 247);
     --tertiary-accent-color: #8BE9FD;
     --tertiary-accent-extra-color: #46DFFF;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
     
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -211,6 +225,8 @@
     --secondary-accent-extra-color: #FFADCB;
     --tertiary-accent-color: #99FFE6;
     --tertiary-accent-extra-color: #78FFDE;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
   
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
@@ -219,7 +235,7 @@
     --brackets-color: rgba(0, 0, 0, 0.25); 
 
   	// Shinji  
-	--body-background-color: #46535E;
+	  --body-background-color: #46535E;
     --popup-background-color: #46535E;
     --main-background-color: #333943;
     --search-background-color: #333943;
@@ -236,6 +252,8 @@
     --secondary-accent-extra-color: #D3B4FF;
     --tertiary-accent-color: #9CEEFF;
     --tertiary-accent-extra-color: #46DFFF;
+    --highlight-text-color: var(--body-background-color);
+    --highlight-background-color: var(--secondary-accent-extra-color);
   
     --border-color: rgba(0, 0, 0, 0.08);
     --subtle-border-color: rgba(255, 255, 255, 0.11);
