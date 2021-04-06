@@ -10,6 +10,10 @@
     --sidebar-default-opacity: .15; /* Change this to 1 if you want the sidebar to always be visible in desktop view */
     --embeds-show-reference-count: initial; /* Set this to 'initial' to show it; 'none' to hide it */
     --sidebar-show-reference-count: initial; /* Set this to 'initial' to show it; 'none' to hide it */
+    --outer-indent-ruler-opacity: 1; /* Change this to 0 if you want to hide the outermost indent line */
+    --inner-indent-ruler-opacity: 1; /* Change this to 0 if you want to hide the inner indent lines */
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
   
     /* Current: Puma */  
     --body-background-color: #353846;
