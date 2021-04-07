@@ -12,8 +12,6 @@
     --sidebar-show-reference-count: initial; /* Set this to 'initial' to show it; 'none' to hide it */
     --outer-indent-ruler-opacity: 1; /* Change this to 0 if you want to hide the outermost indent line */
     --inner-indent-ruler-opacity: 1; /* Change this to 0 if you want to hide the inner indent lines */
-    --indent-border-color: var(--subtle-border-color);
-    --indent-border-color-hover: var(--block-highlight-accent-color);
   
     /* Current: Puma */  
     --body-background-color: #353846;
@@ -40,7 +38,9 @@
     --subtle-border-color: rgba(255, 255, 255, 0.11);
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
-    --brackets-color: rgba(0, 0, 0, 0.25);  
+    --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
  
     /* To use a theme from below, replace the current theme with it
 
@@ -69,7 +69,9 @@
     --subtle-border-color: rgba(255, 255, 255, 0.11);
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.15);
-    --brackets-color: rgba(0, 0, 0, 0.25); 
+    --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
 
     // Arrakis
     --body-background-color: #47322D;
@@ -97,6 +99,8 @@
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.15);
     --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
   
     // Gaia
     --body-background-color: #224A3F;
@@ -123,7 +127,9 @@
     --subtle-border-color: rgba(255, 255, 255, 0.11);
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.15);
-    --brackets-color: rgba(0, 0, 0, 0.25); 
+    --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
 
     // Spice
     --body-background-color: #3C335E;
@@ -151,6 +157,8 @@
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.15);
     --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
   
     // NLS
     --header-font: "IBM Plex Mono", sans-serif;	
@@ -180,7 +188,10 @@
     --subtle-border-color: rgba(255, 255, 255, 0.11);
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
-    --brackets-color: rgba(0, 0, 0, 0.25); 
+    --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
+
     // Add this import below the other import lines at the top. This changes the typeface
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap');
 
@@ -209,7 +220,9 @@
     --subtle-border-color: rgba(255, 255, 255, 0.11);
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
-    --brackets-color: rgba(0, 0, 0, 0.25); 
+    --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color); 
 
     // Rei
     --body-background-color: #3A387D;
@@ -236,7 +249,9 @@
     --subtle-border-color: rgba(255, 255, 255, 0.11);
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
-    --brackets-color: rgba(0, 0, 0, 0.25); 
+    --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
 
   	// Shinji  
 	  --body-background-color: #46535E;
@@ -264,6 +279,8 @@
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
     --brackets-color: rgba(0, 0, 0, 0.25);
+    --indent-border-color: var(--subtle-border-color);
+    --indent-border-color-hover: var(--block-highlight-accent-color);
 
   */ 
 }
