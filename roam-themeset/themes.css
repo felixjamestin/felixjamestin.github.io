@@ -39,6 +39,7 @@
     --search-border-color: rgba(255, 255, 255, 0.08);
     --reference-item-background: rgba(0, 0, 0, 0.10);
     --brackets-color: rgba(0, 0, 0, 0.25);
+    
     --indent-border-color: var(--subtle-border-color);
     --indent-border-color-hover: var(--block-highlight-accent-color);
  

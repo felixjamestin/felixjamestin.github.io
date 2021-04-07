@@ -28,7 +28,6 @@ html{
 .rm-level-0>.rm-multibar{
   opacity: var(--outer-indent-ruler-opacity);
 }
-
 .rm-multibar:hover {
   border-right: 1px solid var(--indent-border-color-hover);
   width: calc(1px - -6px);
