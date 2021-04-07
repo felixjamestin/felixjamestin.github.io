@@ -86,7 +86,9 @@ html{
 }
 
 .rm-hr{
-  border: 1px solid var(--block-highlight-accent-color);
+  border: .5px solid var(--subtle-border-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .rm-orbit-tag {
