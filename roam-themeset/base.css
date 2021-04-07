@@ -21,7 +21,7 @@ html{
 }
 
 .rm-multibar{
-  border-right: 1px dotted var(--indent-border-color);
+  border-right: 1px dotted var(--subtle-border-color);
   opacity: var(--inner-indent-ruler-opacity);
 }
 
@@ -29,7 +29,7 @@ html{
   opacity: var(--outer-indent-ruler-opacity);
 }
 .rm-multibar:hover {
-  border-right: 1px solid var(--indent-border-color-hover);
+  border-right: 1px solid var(--block-highlight-accent-color);
   width: calc(1px - -6px);
 }
 
