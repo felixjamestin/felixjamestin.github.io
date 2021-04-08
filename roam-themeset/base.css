@@ -103,6 +103,10 @@ html{
   font-size: 12px;
 }
 
+.roam-block-container:focus-within>.rm-block-main>div:nth-child(1) .rm-bullet .rm-bullet__inner{
+  background-color: var(--tertiary-accent-extra-color);
+}
+
 button.bp3-button.bp3-minimal.DayPicker-NavButton.DayPicker-NavButton--prev, 
 button.bp3-button.bp3-minimal.DayPicker-NavButton.DayPicker-NavButton--next{
   background: transparent !important;
